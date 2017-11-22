@@ -1,0 +1,16 @@
+{
+  "name": "module-console-logger",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "repository": "git@github.com:DavidBabel/module-console-logger.git",
+  "author": "David Babel <david.babel@ogury.co>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo 'no tests yet'"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "winston": "^2.4.0",
+    "winston-papertrail": "^1.0.5"
+  }
+}
