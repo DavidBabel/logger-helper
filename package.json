@@ -6,7 +6,6 @@
   "author": "David Babel <david.babel@ogury.co>",
   "license": "MIT",
   "scripts": {
-    "postinstall": "npm run build",
     "build": "NODE_ENV=production babel --out-dir dist lib",
     "test": "NODE_ENV=test mocha --require babel-core/register tests/**/*.js"
   },
