@@ -6,11 +6,21 @@
   "author": "David Babel <david.babel@ogury.co>",
   "license": "MIT",
   "scripts": {
-    "test": "echo 'no tests yet'"
+    "test": "NODE_ENV=test mocha --require babel-core/register tests/**/*.js"
   },
   "dependencies": {
     "colors": "^1.1.2",
     "winston": "^2.4.0",
     "winston-papertrail": "^1.0.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.2"
   }
 }
