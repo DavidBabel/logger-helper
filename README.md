@@ -1,11 +1,11 @@
-# Module Logger
+# Logger helper (with papertrail)
 
 ## Install
 
 To install it in your project, think to fix the version using this kind of command :
 
 ```
-yarn add Ogury/module-logger#v1.X.X
+yarn add Ogury/logger-helper#v1.X.X
 ```
 
 ## Requirements
@@ -22,10 +22,10 @@ PAPERTRAIL_HOSTNAME
 ## usage
 
 This logger is used to display messages. It display console message in local developpement, and use Papertrail logs in production environnement.
-This module exposes 4 mothods :
+This module exposes 4 methods :
 
 ```javascript
-imports {debug, log, warn, error} from 'module-logger';
+imports {debug, log, warn, error} from 'logger-helper';
 
 debug('this is a debug message');
 log('this is a log message');
